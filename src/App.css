@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+video {
+  display: block;
+  margin: 20px auto; /* Centraliza o vídeo e adiciona espaço acima e abaixo */
+}
+
+.background-music {
+  display: block;
+  margin: 20px auto; /* Centraliza o áudio e adiciona espaço acima e abaixo */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+  .App-header {
+    padding: 10px;
+  }
+
+  .profile-image {
+    width: 120px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
